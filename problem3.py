@@ -1,5 +1,17 @@
 #! python3
 
+x = input("Enter a username")
+y = "12345password"
+
+if x == "admin":
+ z = input("Enter password")
+ if z == y:
+  print("Access granted")
+ else:
+  print("Access denied")
+else:
+ print("invalid user")
+
 """
  Have the user enter a username 
  If the username is not "admin" then tell them it is an "invalid user", 

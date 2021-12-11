@@ -1,4 +1,16 @@
 #! python3
+x = input("Enter side length")
+y = input("Enter side length")
+z = input("Enter side length")
+
+"""
+Open the file called problem4.py
+Have the user enter in 3 numerical values, representing the side lengths of a triangle.
+Determine if the values are close enough to make a right triangle.
+(It is close enough if the expected length of the hypotenuse and the actual 
+length differ by no more than 2%)
+(2 marks)
+
 # Have the user enter in 3 numerical values, representing the side lengths of a triangle. 
 # Determine if the values are close enough to make a right triangle. 
 # Note: You will need to decide which length is the possibly hypotenuse as the numbers
@@ -14,7 +26,6 @@
 # - "that is a right triangle"
 # - "that is an acute triangle"
 # - "that is an obtuse triangle"
-"""
 Example:
 Enter one side: 5
 Enter a second side: 13

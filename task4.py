@@ -1,8 +1,18 @@
 #! python3
 
+x = input("Enter a sentence")
+
+if x == "password":
+ print("the sentence contains password")
+else:
+ print("the sentence does not contain password")
+
 """
-Have the user enter in a sentence. 
-Check to see if the word "password" is located in the sentence
+##### Task 4
+Open the file task4.py
+Have the user enter in a sentence.
+Check to see if the word "password" is located in the sentence.
+(2 mark)
 
 Inputs:
 a sentence

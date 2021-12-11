@@ -1,13 +1,24 @@
 #! python3 
 
+x = input("Enter a number")
+if int(x) == 1000 or int(x) > 1000:
+ print("3")
+if int(x) == 100 or int(x) < 1000 and int(x) > 100:
+ print("2")
+if int(x) == 10 or int(x) < 100 and int(x) > 10:
+ print("1")
+if int(x) == 0 or int(x) > 0 and int(x) < 100:
+ print("0")
+
 """
-Have the user enter a number. 
-Use an if...elif statement to determine if the number is 
-a) larger than 1000 
-b) larger than 100 
-c) larger than 10 
-d) larger than 0 
-Output must match one of the valid output statements listed
+Open the file called task3.py
+Have the user enter a number.
+Use an if...elif statement to determine if the number is
+a) larger than 1000
+b) larger than 100
+c) larger than 10
+d) larger than 0
+Output must match one of the valid output statements listed in the program
 (2 points)
 
 Inputs:
