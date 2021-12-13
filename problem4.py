@@ -1,7 +1,23 @@
 #! python3
-x = input("Enter side length")
-y = input("Enter side length")
-z = input("Enter side length")
+
+x = input("Enter an integer")
+y = input("Enter an interger")
+z = input("Enter an interger")
+x = int(x)
+y = int(y)
+z = int(z)
+c = max(x,y,z)
+a = min(x,y,z)
+mylist = [x,y,z]
+b = sorted(mylist)[len(mylist) // 2]
+g = str(a) + "," + str(b) + "," + str(c)
+if a ** 2 + b ** 2 == c ** 2:
+ print("that is a right triangle")
+
+
+
+
+
 
 """
 Open the file called problem4.py
