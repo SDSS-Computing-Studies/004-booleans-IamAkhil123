@@ -2,7 +2,7 @@
 
 x = input("Enter a sentence")
 
-if x == "password":
+if "password" in x:
  print("the sentence contains password")
 else:
  print("the sentence does not contain password")

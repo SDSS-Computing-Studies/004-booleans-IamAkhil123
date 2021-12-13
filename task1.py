@@ -3,7 +3,8 @@
 x = input("Enter a number")
 if int(x) > 100:
  print("The number is larger than 100")
-else:
+
+if int(x) < 100:
  print("The number is smaller than 100")
 
 if int(x) == 100:
