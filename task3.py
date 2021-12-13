@@ -7,7 +7,7 @@ if int(x) == 100 or int(x) < 1000 and int(x) > 100:
  print("2")
 if int(x) == 10 or int(x) < 100 and int(x) > 10:
  print("1")
-if int(x) == 0 or int(x) > 0 and int(x) < 100:
+if int(x) == 0 or int(x) < 10:
  print("0")
 
 """
