@@ -2,13 +2,13 @@
 
 x = input("Enter a number")
 
-if int(x) < 0:
+if float(x) < 0:
  print("negative")
 
-if int(x) > 0:
+if float(x) > 0:
  print("positive")
 
-if int(x) == 0:
+if float(x) == 0:
  print("zero")
 
 """
