@@ -4,8 +4,10 @@ x = input("Enter a number")
 if int(x) > 100:
  print("The number is larger than 100")
 else:
- print("The number is lower than 100")
+ print("The number is smaller than 100")
 
+if int(x) == 100:
+ print("The number is 100")
 """
 Open the file called task1.py \
 Have the user input a number. \
