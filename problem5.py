@@ -7,6 +7,9 @@ c = input("Enter c:")
 
 x = int(b)^2 - 4 * int(a) * int(c)
 
+if x < 0:
+ print("no solution")
+
 number = int(input(x))
 
 root = math.sqrt(number)
