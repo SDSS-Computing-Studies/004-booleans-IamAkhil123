@@ -14,7 +14,7 @@ g = str(a) + "," + str(b) + "," + str(c)
 if a ** 2 + b ** 2 == c ** 2:
  print("that is a right triangle")
 else:
- print("NONE")
+print("NONE")
 
 
 

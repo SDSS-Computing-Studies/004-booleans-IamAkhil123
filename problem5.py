@@ -1,4 +1,20 @@
 #! python3
+import math
+
+a = input("Enter a:")
+b = input("Enter b:")
+c = input("Enter c:")
+
+x = int(b)^2 - 4 * int(a) * int(c)
+
+x = int(x)
+
+root = math.sqrt(x)
+if int(root + 0.5) ** 2 == x:
+    print(x, "the equation can be factored")
+else:
+    print(x, "the equation can not be factored")
+
 
 """
 In math, if a quadratic equation is in the format
