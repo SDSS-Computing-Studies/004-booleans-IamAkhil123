@@ -1,11 +1,11 @@
 #! python3
 
-x = input("Enter an integer")
-y = input("Enter an interger")
-z = input("Enter an interger")
-x = int(x)
-y = int(y)
-z = int(z)
+x = input("Enter one side:")
+y = input("Enter a second side:")
+z = input("Enter third side:")
+x = float(x)
+y = float(y)
+z = float(z)
 c = max(x,y,z)
 a = min(x,y,z)
 mylist = [x,y,z]
@@ -14,7 +14,11 @@ g = str(a) + "," + str(b) + "," + str(c)
 if a ** 2 + b ** 2 == c ** 2:
  print("that is a right triangle")
 else:
- print("NONE")
+ if a ** 2 + b ** 2 > c ** 2:
+  print ("that is an acute triangle")
+ else:
+  if a ** 2 + b ** 2 < c ** 2:
+   print ("that is an obtuse triangle")
 
 
 
