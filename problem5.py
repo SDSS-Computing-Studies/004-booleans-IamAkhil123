@@ -7,9 +7,10 @@ c = input("Enter c:")
 
 x = int(b)^2 - 4 * int(a) * int(c)
 
-x = int(x)
+number = int(input(x))
 
-if x ** 2 is int:
+root = math.sqrt(number)
+if int(root + 0.5) ** 2 == number:
     print("the equation can be factored")
 else:
     print("the equation can not be factored")
@@ -41,5 +42,4 @@ Enter a: 1
 Enter b: 4
 Enter c: 8
 the equation can not be factored
-
 """
