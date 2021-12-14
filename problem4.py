@@ -10,7 +10,7 @@ c = max(x,y,z)
 a = min(x,y,z)
 mylist = [x,y,z]
 b = sorted(mylist)[len(mylist) // 2]
-g = str(a) + "," + str(b) + "," + str(c)
+g = float(a) + "," + float(b) + "," + float(c)
 if a ** 2 + b ** 2 == c ** 2:
  print("that is a right triangle")
 else:
@@ -19,10 +19,6 @@ else:
  else:
   if a ** 2 + b ** 2 < c ** 2:
    print ("that is an obtuse triangle")
-
-
-
-
 
 """
 Open the file called problem4.py
@@ -62,6 +58,4 @@ Enter one side: 5
 Enter a second side: 15
 Enter third side: 12
 that is an obtuse triangle
-
-
 """
