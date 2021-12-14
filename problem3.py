@@ -3,7 +3,7 @@
 x = input("Enter a username")
 y = "12345password"
 
-if x == "admin":
+if x == "admin" or "Admin":
  z = input("Enter password")
  if z == y:
   print("Access granted")
