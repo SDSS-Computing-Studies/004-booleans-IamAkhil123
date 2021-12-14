@@ -1,13 +1,13 @@
 #! python3 
 
 x = input("Enter a number")
-if int(x) == 1000 or int(x) > 1000:
+if float(x) == 1000 or float(x) > 1000:
  print("3")
-if int(x) == 100 or int(x) < 1000 and int(x) > 100:
+if float(x) == 100 or float(x) < 1000 and float(x) > 100:
  print("2")
-if int(x) == 10 or int(x) < 100 and int(x) > 10:
+if float(x) == 10 or float(x) < 100 and float(x) > 10:
  print("1")
-if int(x) == 0 or int(x) < 10:
+if float(x) == 0 or float(x) < 10:
  print("0")
 
 """
