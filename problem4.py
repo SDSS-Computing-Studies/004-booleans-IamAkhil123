@@ -10,14 +10,14 @@ c = max(x,y,z)
 a = min(x,y,z)
 mylist = [x,y,z]
 b = sorted(mylist)[len(mylist) // 2]
-g = float(a) + "," + float(b) + "," + float(c)
-if a ** 2 + b ** 2 == c ** 2:
+c1 = round(c)
+if a ** 2 + b ** 2 == c1 ** 2:
  print("that is a right triangle")
 else:
- if a ** 2 + b ** 2 > c ** 2:
+ if a ** 2 + b ** 2 > c1 ** 2:
   print ("that is an acute triangle")
  else:
-  if a ** 2 + b ** 2 < c ** 2:
+  if a ** 2 + b ** 2 < c1 ** 2:
    print ("that is an obtuse triangle")
 
 """
