@@ -5,7 +5,7 @@ a = input("Enter a:")
 b = input("Enter b:")
 c = input("Enter c:")
 
-x = int(b)^2 - 4 * int(a) * int(c)
+x = int(b*b) - 4 * int(a) * int(c)
 
 if x < 0:
  print("no solution")
