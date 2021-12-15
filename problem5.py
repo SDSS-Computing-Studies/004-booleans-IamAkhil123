@@ -5,14 +5,15 @@ a = input("Enter a:")
 b = input("Enter b:")
 c = input("Enter c:")
 
-x = int(b*b) - 4 * int(a) * int(c)
+a = int(a)
+b = int(b)
+c = int(c)
 
-if x < 0:
- print("no solution")
+x = (b*b) - 4 * (a) * (c)
 
-number = int(input(x))
+number = int(x)
 
-root = math.sqrt(number)
+root = math.sqrt(float(number))
 if int(root + 0.5) ** 2 == number:
     print("the equation can be factored")
 else:
